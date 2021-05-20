@@ -72,7 +72,8 @@ System.out.println("각 작업의 수행시간은: ");
 
 #### 아래의 실행 결과에서 n=8이고 기계의 수가 2일 때 작업의 수행과정은 다음 그림과 같다
 
-![스케쥴4](C:\Users\cjh00\OneDrive\바탕 화면\과제\스케쥴4.PNG)
+<img width="1348" alt="스케쥴4" src="https://user-images.githubusercontent.com/80919306/118995393-127e6780-b9c2-11eb-84c1-7f78cf7ed039.PNG">
+
 
 
 
@@ -143,15 +144,18 @@ public class Job {
 
 ## 4. 실행 결과
 
-![](C:\Users\cjh00\OneDrive\바탕 화면\과제\스케쥴1.PNG)
+<img width="584" alt="스케쥴1" src="https://user-images.githubusercontent.com/80919306/118995460-21fdb080-b9c2-11eb-8d64-b6f34ebef543.PNG">
 
 
 
-![스케쥴2](C:\Users\cjh00\OneDrive\바탕 화면\과제\스케쥴2.PNG)
+
+<img width="551" alt="스케쥴2" src="https://user-images.githubusercontent.com/80919306/118995515-2c1faf00-b9c2-11eb-83ed-c55c793250fc.PNG">
 
 
 
-![스케쥴3](C:\Users\cjh00\OneDrive\바탕 화면\과제\스케쥴3.PNG)
+
+<img width="654" alt="스케쥴3" src="https://user-images.githubusercontent.com/80919306/118995552-33df5380-b9c2-11eb-84a5-f76a4551304e.PNG">
+
 
 
 
@@ -175,14 +179,16 @@ public class Job {
 
 – 이를 다음 그림을 통해서 이해해보자. 단, ti 는 작업 i의 수행 시간이다.
 
-![스케쥴5](C:\Users\cjh00\OneDrive\바탕 화면\과제\스케쥴5.PNG)
+<img width="517" alt="스케쥴5" src="https://user-images.githubusercontent.com/80919306/118995602-3cd02500-b9c2-11eb-8b03-5f6997b62de9.PNG">
+
 
 - 위의 그림은 Approx_JobScheduling 알고리즘으로 작업을 배정하였고, 
 - 가장 마지막으로 배정된 작업 i가 T부터 수행되며, 
 -  모든 작업이 T+ti 에 종료된 것을 보이고 있다. 
 -  그러므로 OPT' = T+ti 이다.
 
-![스케쥴6](C:\Users\cjh00\OneDrive\바탕 화면\과제\스케쥴6.PNG)
+<img width="572" alt="스케쥴6" src="https://user-images.githubusercontent.com/80919306/118995633-478aba00-b9c2-11eb-9d37-7f497481adda.PNG">
+
 
 - 위 그림에서 T’는 작업 i를 제외한 모든 작업의 수행 시간의 합을 기계의 수 m으로 나눈 값이다. – 즉, T'는 작업 i를 제외한 평균 종료 시간이다. 
 
@@ -190,7 +196,8 @@ public class Job {
 
 - T와 T'의 관계인, T ≤ T'를 이용한 OPT' ≤ 2xOPT 증명
 
-  ![스케쥴7](C:\Users\cjh00\OneDrive\바탕 화면\과제\스케쥴7.PNG)
+<img width="629" alt="스케쥴7" src="https://user-images.githubusercontent.com/80919306/118995820-66894c00-b9c2-11eb-9b16-2f2c7b0d26e7.PNG">
+
 
 
 
@@ -261,6 +268,6 @@ public class Job {
 ```
 
 ## 손작업 (그리디 알고리즘)
+![KakaoTalk_20210520_231743144](https://user-images.githubusercontent.com/80919306/118995698-540f1280-b9c2-11eb-8536-6fdbf8654eb2.jpg)
 
-![KakaoTalk_20210520_231743144](C:\Users\cjh00\OneDrive\바탕 화면\KakaoTalk_20210520_231743144.jpg)
 
